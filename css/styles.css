@@ -7,7 +7,7 @@
 
 body{
     color: var(--color-text-primary);
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
     background-color: var(--color-background);
@@ -24,6 +24,7 @@ footer{
     font-weight: 700;
     line-height: 1.4;
 }   
+
 .logo-primary{
     color: #000;
     font-family: "Raleway", sans-serif;
@@ -31,6 +32,23 @@ footer{
     font-weight: 700;
     line-height: 1.4;
     text-decoration: none;
+}
+
+.logo-primary-footer{
+    color: #ffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+.logo-primary-footer > span {
+    color: var(--color-brand);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
 }
 
 .link-header {
@@ -45,7 +63,11 @@ footer{
     color: var(--color-brand);
 }
 .link-header:focus{
-    color: var(--color-brand: #2196f3;)
+    color: var(--color-brand);
+}
+
+.current-page{
+    color: var(--color-brand);
 }
 
 .mail-tel-section{
@@ -76,7 +98,8 @@ footer{
 }
 .primery-button{
     color: #ffff;
-    background-color: var(--color-brand);
+    background-color: #2196f3;;
+    font-family: "Roboto", "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.8;
@@ -84,9 +107,12 @@ footer{
     cursor: pointer;
 }
 
+.primery-button:hover{
+    background-color:#188ce8;
+}
+
 .section-title{
     color: var(--color-text-primary);
-
 }
 
 .advantage-card{
@@ -148,6 +174,7 @@ ul{
 .primary-button-portfolio{
     color: var(--color-text-primary);
     background-color: #f5f4fa;
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
@@ -155,6 +182,7 @@ ul{
 }
 
 .primary-button-portfolio:hover{
+    color: #ffff;
     background-color: var(--color-brand);
 }
 
